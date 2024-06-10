@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="lista">
+        <header>
+            <img src="logo.png" alt="" class="imagem">
+            <h1>LISTA DE TAREFAS APP</h1>
+        </header>
+        <form id="infor" >
+            <div class="idNome">
+                <tr>
+                    <td><input type="text" id="tarefaNome" placeholder="Nome da Tarefa" class="adcDados"></td>
+                </tr>
+            </div>
+            <div class="selecionar">
+                <tr>
+                <td ><select class="adcDados" id="idStatus">
+                    <option value="" disabled selected>Selecione a Opção</option>
+                    <option value="A fazer">A fazer</option>
+                    <option value="Feito">Feito</option>
+                    <option value="Fazendo">Fazendo</option>
+                </select></td>
+                </tr>
+            </div>
+            <div class="data">
+                <tr>
+                    <td><input type="date" id="tarefaData" placeholder="Datas" class="adcDados"></td>
+                </tr>
+            </div>
+            <div class="adiciona">
+                <tr>
+                    <td><input type="submit" value="Adicionar" id="adicionar" class="adicionar"></td>
+                </tr>
+            </div>
+        </form>
+        <div class="dados">
+            <table id="idTabela">
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="java.js"></script>
+</body>
+</html>

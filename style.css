@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #81e7dc; */
+    background-image: linear-gradient(39deg, #81e7dc, #fff);
+
+    margin: 60px; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+    background-size: cover; /* Faz com que a imagem cubra todo o body */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    width: 100%; /* Garante que o body ocupe 100% da largura */
+    height: 100vh; /* Garante que o body ocupe 100% da altura da viewport */
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+.imagem{
+    display: flex;
+    width: 2rem;
+    margin-right: 23px;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.adcDados{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 8px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding-top:10px ;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+.adicionar{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 8px;
+    background-color: #fac209;
+    color: black;
+    border: none;
+    border-radius: 18px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right:14px ;
+    cursor: pointer;
+}
+table{
+width: 50%;
+border: 1px solid transparent;
+border-collapse:collapse ;
+}
+.titulo{
+    font-weight: bolder;
+
+}
+th{
+    border-bottom: 2px solid black;
+    padding: 8px ;
+    margin: auto;
+}
+td{
+    border-bottom: 0.5px solid rgba(179, 161, 161, 0.418);
+    padding: 8px;
+    text-align: center;
+}
+.btnEditar{
+    
+  color: blue;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+  
+}
+.btnExcluir{
+   color: red;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.tabela{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
